@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_data_club">
+
+    <fragment
+        android:id="@+id/nav_standings"
+        android:name="com.achsanit.footballstandings.ui.fragments.standings.StandingsFragment"
+        android:label="fragment_standings"
+        tools:layout="@layout/fragment_standings" />
+    <fragment
+        android:id="@+id/nav_data_club"
+        android:name="com.achsanit.footballstandings.ui.fragments.dataclub.DataClubFragment"
+        android:label="fragment_data_club"
+        tools:layout="@layout/fragment_data_club" >
+        <action
+            android:id="@+id/action_nav_data_club_to_addDataClubFragment"
+            app:destination="@id/addDataClubFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_score"
+        android:name="com.achsanit.footballstandings.ui.fragments.score.UpdateScoreFragment"
+        android:label="fragment_update_score"
+        tools:layout="@layout/fragment_update_score" />
+    <fragment
+        android:id="@+id/addDataClubFragment"
+        android:name="com.achsanit.footballstandings.ui.fragments.dataclub.add.AddDataClubFragment"
+        android:label="fragment_add_data_club"
+        tools:layout="@layout/fragment_add_data_club" />
+</navigation>

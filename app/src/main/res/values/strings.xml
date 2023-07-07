@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Football Standings</string>
+    <string name="title_standings">Standings</string>
+    <string name="title_data_club">Data Club</string>
+    <string name="title_score_board">Score Board</string>
+    <string name="lable_club_name">Club Name</string>
+    <string name="text_save">Save</string>
+    <string name="label_city">City</string>
+    <string name="title_add_data_club">Add Data Club</string>
+    <string name="text_no">No</string>
+    <string name="message_field_cant_empty">field cannot be empty</string>
+</resources>

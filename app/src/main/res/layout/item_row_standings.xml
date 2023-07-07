@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_title_no"
+            android:background="@drawable/table_border"
+            android:layout_width="48dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            tools:text="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_club_name"
+            android:background="@drawable/table_border"
+            android:layout_width="120dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            tools:text="juventus"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_match"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="3"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_win"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="2"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_draw"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lose"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="0"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_goal_for"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="4"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_goal_against"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="48dp"
+            android:gravity="center"
+            tools:text="1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_point"
+            android:background="@drawable/table_border"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_width="72dp"
+            android:gravity="center"
+            tools:text="7"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>
